@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+}
+header {
+    margin-bottom:2px;
+    height:60px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: green;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 10px;
+    display: flex;
+}
+header nav ul a:hover{
+    color: green;
+    text-decoration: 3px solid white underline;
+}
+
+    nav ul li {
+        margin-right: 20px;
+        margin:0 20px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.search-bar {
+    margin-left: 50px;
+}
+
+.sign-in {
+    background-color: green;
+    color: white;
+    margin-left:60px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-up {
+    background-color: green;
+    color: white;
+    margin-right:20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.front{
+    background-image: url('../images/pngtree-3d-illustration-of-auto-components-spare-parts-and-accessories-image_3804414.jpg');
+    height:250px;
+    margin-top:5px;
+    margin:0;
+    padding:0;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position: center;
+}
+.front h1{
+    text-align:center;
+    padding-top:50px;
+    color:white;
+}
+
+    .front h2 {
+        text-align: center;
+        padding-top: 10px;
+        color: white;
+    }
+
+
+.products {
+    padding: 50px 0;
+}
+
+    .products h1 {
+        font-weight: bold;
+        color: green;
+    }
+
+.product-img {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+    .product-img img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .product-img h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .product-img p {
+        color: #555;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .product-img .price {
+        font-weight: bold;
+        color: green;
+        display: block;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .p1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 150px;
+    }
+
+.p2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+
+.service-img {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.service-img img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+.service-img h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+.service-img p {
+        color: #555;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .service-img .price {
+        font-weight: bold;
+        color: green;
+        display: block;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+.service h1{
+    font-weight: bold;
+    color: green;
+
+}
+
+.s1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+.about{
+    align-items: center;
+    display: flex;
+    height:200px;
+    justify-content: space-between;
+    margin: 10px 250px;
+}
+.aboutus{
+    width:200px;
+    font-weight:bold;
+    color: green;
+}
+
+.abouttext{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.5);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+
+}
+
+.contact{
+    align-items: center;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    margin: 10px 250px;
+}
+
+.contactus {
+    color:green;
+    font-weight: bold;
+    width: 200px;
+}
+
+.contacttext {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0.5);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+}
+
+
+.footer{
+    background-color:black;
+    color:white;
+    height:80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon ul{
+    list-style:none;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+.icon ul li{
+    margin:10px 15px;
+}
+.copyright p{
+    align-items: center;
+    margin-left:450px;
+}
+
+.sami{
+    background: white;
+    width: 500px;
+    margin: 55px auto;
+    padding: 20px;
+    border: 5px solid green;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1.5);
+}
+
+    .sami h2 {
+        font-size: 25px;
+        text-align: center;
+        padding: 24px;
+    }
+
+.input-name {
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.name {
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+}
+
+.text-name {
+    width:90%;
+    margin-right:20px;
+    padding: 8px 0px 8px 40px;
+}
+
+.new {
+    padding: 8px 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    background: seagreen;
+    color: black;
+    border: seagreen;
+    border-radius: 30px;
+}
+
+    .btn:hover {
+        background: lightgrey;
+        font-weight: bold;
+    }
+
+.abc {
+    margin-left: 20px;
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+}
